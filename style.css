@@ -28,7 +28,7 @@
   
   .title {
     list-style: none;
-    justify-conent: space-between;
+    justify-content: space-between;
     display: flex;
   }
   
@@ -42,4 +42,33 @@
     text-align: center;
     padding: 15px;
     margin-left: 2%
+  }
+
+  .maincontent {
+    text-align: center;
+    padding: 15px;
+    margin-left: 2%
+  }
+  
+  feedback {
+    background-color: black;
+    color: white;
+    font-family: "Oswald";
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
   }

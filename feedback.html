@@ -1,0 +1,69 @@
+<head>
+    <meta charset="UTF-8">
+    <title>EConvert - Página Inicial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html" style="text-decoration: none;color:black">EConvert</a>
+        </h1>
+        <div>
+          <nav>
+            <ul class="title">
+              <li>DOCUMENTOS</li>
+              <li>IMAGENS</li>
+              <li>MEDIDAS</li>
+              <li>MOEDAS</li>
+              <li>UNIDADES</li>
+              <li>TEXTO</li>
+              <li>CORES</li>
+              <li>VÍDEOS</li>
+              <li>ÁUDIOS</li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+  <main>
+    <div class="maincontent">
+      <h1>Feedback</h1>
+      <p>sua opinião é importante para nós! Deixe aqui sugestões / reclamações / elogios ou o que mais você quiser falar para nós, basta preencher o formulário abaixo:</p>
+            <form>
+                <div class="form-group">
+                    <label for="topics">Tópico</label>
+                    <select id="topics" name="topics">
+                        <option value="choose">Escolher</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="other">Outros</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="text">Texto</label>
+                    <input type="text" id="text" name="text" placeholder="Digite seu texto">
+                </div>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+  </main>
+  <footer>
+    EConvert - 2024 - desenvolvido por  <a href="https://github.com/vitukjkk" target="_blank" style="color:gray;background-color:white">vitukjkkk</a>
+  </footer>
+</body>  
