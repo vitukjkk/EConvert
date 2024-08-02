@@ -1,0 +1,45 @@
+:root {
+    background-color: black;
+    color: white;
+    font-family: "Oswald";
+    text-align: center;
+  }
+  
+  header {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    padding: 2px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+  }
+  
+  footer {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .title {
+    list-style: none;
+    justify-conent: space-between;
+    display: flex;
+  }
+  
+  li {
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .maincontent {
+    text-align: center;
+    padding: 15px;
+    margin-left: 2%
+  }
