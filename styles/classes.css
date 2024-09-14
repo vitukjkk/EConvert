@@ -1,0 +1,16 @@
+.divRedesSociais {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.maincontent {
+    text-align: center;
+    padding: 15px;
+    margin-left: 2%;
+}

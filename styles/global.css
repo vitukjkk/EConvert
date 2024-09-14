@@ -1,0 +1,59 @@
+:root {
+    background-color: black;
+    color: white;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    padding: 2px;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+
+li {
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+}
+
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
